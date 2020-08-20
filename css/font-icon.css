@@ -12,6 +12,13 @@
 
 }
 
+@font-face {
+  font-family: 'customFont';
+  src: url('../fonts/ProductSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 [data-icon]:before {
   font-family: "untitled-font-1" !important;
   content: attr(data-icon);
